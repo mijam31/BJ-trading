@@ -9,7 +9,7 @@ body {
 
 .footer {
   background-color: #585d67;
-  padding: 40px;
+  padding: 80px;
 }
 .footer-info {
   max-width: 1980px;
@@ -21,7 +21,7 @@ body {
 }
 .footer-info article h3 {
   font-size: 20px;
-  color: black;
+  font-weight: bold;
   padding: 10px;
   text-align: center;
 }
@@ -33,8 +33,9 @@ body {
 .footer-info article a {
   display: flex;
   flex-direction: column;
-  color: #ffffff;
   text-align: start;
+  color: #ffffff;
+
   font-size: 16px;
   padding: 8px;
   text-decoration: none;
