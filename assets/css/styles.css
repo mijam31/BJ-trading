@@ -1,3 +1,5 @@
+@import url(/assets/css/footer.css);
+
 * {
   padding: 0;
   margin: 0;
@@ -76,18 +78,4 @@ img {
 .nav input {
   width: 50px;
   height: 50px;
-}
-
-
-.footer {
-  background-color: #585d67;
-  padding: 40px;
-}
-.footer-info {
-  max-width: 1980px;
-  padding: 102px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  color: #ffff;
 }
