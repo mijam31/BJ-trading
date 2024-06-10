@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-<<<<<<< Updated upstream
 
 body {
   font-family: "Work Sans", sans-serif;
@@ -40,7 +39,6 @@ body {
 }
 
 .nav ul li a:hover {
-  font-weight: 700;
   color: #0045e8;
 }
 
@@ -78,7 +76,9 @@ img {
 .nav input {
   width: 50px;
   height: 50px;
-=======
+}
+
+
 .footer {
   background-color: #585d67;
   padding: 40px;
@@ -90,8 +90,4 @@ img {
   justify-content: space-between;
   margin: 0 auto;
   color: #ffff;
-}
-.footer article h3 {
-  font-size: ;
->>>>>>> Stashed changes
 }
