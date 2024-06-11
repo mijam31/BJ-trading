@@ -9,7 +9,8 @@ body {
 
 .shop {
   max-width: 1980px;
-  padding: 60px;
+  padding: 80px;
+  margin: 80px;
 }
 .container {
   display: flex;
@@ -19,18 +20,17 @@ body {
   padding: 0 20px 10px 20px;
   box-shadow: 5px 10px 10px 5px rgba(13, 13, 196, 0.12);
   border-radius: 8px;
-  position: relative;
-  transition: all 0.35s ease;
+  width: 50%;
 }
 
 .container img {
-  width: 70%;
-  height: 70%;
+  width: 50%;
+  height: 50%;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 .container div {
-  max-width: 100%;
+  max-width: 70%;
   text-align: center;
   margin: 0 auto;
 }
