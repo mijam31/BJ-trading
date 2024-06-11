@@ -85,3 +85,50 @@ img {
   width: 50px;
   height: 50px;
 }
+
+.footer {
+  background-color: #585d67;
+  padding: 80px;
+}
+.footer-info {
+  max-width: 1980px;
+  padding: 102px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: #ffff;
+}
+.footer-info article h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-info article p {
+  font-size: 16px;
+  padding: 10px;
+}
+.footer-info article a {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  color: #ffffff;
+
+  font-size: 16px;
+  padding: 8px;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .footer-info {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-info article a {
+    text-align: center;
+  }
+  .footer-info article h3 {
+    color: #0045e8;
+    font-size: 24px;
+  }
+}
