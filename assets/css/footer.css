@@ -7,6 +7,60 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.shop {
+  max-width: 1980px;
+  padding: 60px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  padding: 0 20px 10px 20px;
+  box-shadow: 5px 10px 10px 5px rgba(13, 13, 196, 0.12);
+  border-radius: 8px;
+  position: relative;
+  transition: all 0.35s ease;
+}
+
+.container img {
+  width: 70%;
+  height: 70%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.container div {
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.container div h4 {
+  font-size: 24px;
+}
+.container div p {
+  font-size: 16px;
+  padding: 10px;
+}
+.cart-shopping-div {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.cart-shopping-div h5 {
+  font-size: 18px;
+}
+.cart-shopping-div a i {
+  width: 35px;
+  height: 35px;
+  color: #0045e8;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+
 .footer {
   background-color: #585d67;
   padding: 80px;
@@ -68,21 +122,29 @@ body {
   flex-direction: column;
   text-align: start;
   color: #ffffff;
-
   font-size: 16px;
   padding: 8px;
   text-decoration: none;
+}
+.footer-info article a:hover {
+  color: #0045e8;
 }
 @media screen and (max-width: 768px) {
   .footer-info {
     flex-direction: column;
     text-align: center;
   }
+  .footer-info article h3 {
+    color: #4dcbf5;
+    font-size: 24px;
+    margin-top: 30px;
+  }
+
   .footer-info article a {
     text-align: center;
   }
-  .footer-info article h3 {
-    color: #0045e8;
-    font-size: 24px;
+
+  .footer-info article a:hover {
+    color: black;
   }
 }
