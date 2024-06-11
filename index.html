@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <script src="/assets/js/"></script>
+    <script src="/assets/js/burgermenu.js" defer></script>
   </head>
   <body>
     <nav class="nav max-width">
@@ -41,15 +41,18 @@
         <input type="image" src="https://www.bj-trading.dk/bjshop/search.png" />
       </div>
       <div class="burgermenu">
-        <i id="menu" class="fa-solid fa-bars"></i>
-        <i id="burger" class="fa-solid fa-burger"></i>
+        <i onclick="openul()" id="menu" class="fa-solid fa-bars"></i>
+        <i onclick="closeul()" id="burger" class="fa-solid fa-burger"></i>
       </div>
     </nav>
-    <section class="navBurgermenu">
+    <section id="navBurgermenu" class="navBurgermenu">
       <ul>
         <li><a href="">Login</a></li>
+        <div></div>
         <li><a href="">Retur-Reklamation</a></li>
+        <div></div>
         <li><a href="">Kontakt</a></li>
+        <div></div>
         <li><a href="">Outlet</a></li>
       </ul>
     </section>

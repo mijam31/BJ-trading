@@ -88,7 +88,7 @@ img {
 }
 
 .navBurgermenu ul {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -105,8 +105,19 @@ img {
   font-size: 19px;
 }
 
+.navBurgermenu div {
+  height: 2px;
+  width: 320px;
+  background-color: #464a52;
+  margin: 0 auto;
+}
+
 .navBurgermenu ul li a:hover {
   color: #4dcbf5;
+}
+
+#burger {
+  margin-left: -5px;
 }
 
 @media screen and (max-width: 1200px) {
