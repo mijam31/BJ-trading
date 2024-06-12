@@ -7,65 +7,6 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
-.shop {
-  max-width: 1980px;
-  padding: 80px;
-}
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-}
-.box {
-  padding: 0 20px 10px 20px;
-  box-shadow: 5px 10px 10px 5px rgba(13, 13, 196, 0.12);
-  border-radius: 8px;
-}
-
-.container img {
-  width: 50%;
-  height: 50%;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-.container div {
-  text-align: center;
-}
-.container div h4 {
-  font-size: 24px;
-}
-.container div p {
-  font-size: 16px;
-  padding: 10px;
-}
-.cart-shopping-div {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 18px;
-  padding-left: 18px;
-}
-
-.cart-shopping-div h5 {
-  font-size: 18px;
-}
-.cart-shopping-div a i {
-  width: 35px;
-  height: 35px;
-  color: #0045e8;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.8rem;
-}
-@media screen and (max-width: 768px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-  .box {
-    padding: 30px;
-  }
-}
 .footer {
   background-color: #585d67;
   padding: 80px;

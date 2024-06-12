@@ -10,6 +10,32 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+.kategori-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.kategori {
+  background-color: #4dcbf5;
+  padding: 30px;
+}
+
+.kategori-ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.kategori-ul li a {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  padding: 30px 0;
+  border-bottom: 2px solid black;
+}
+.kategori-ul li a:hover {
+  color: #ffff;
+}
 
 .shop {
   max-width: 1980px;
@@ -21,9 +47,11 @@ body {
   gap: 40px;
 }
 .box {
-  padding: 0 20px 10px 20px;
+  padding: 0 30px 10px 20px;
   box-shadow: 5px 10px 10px 5px rgba(13, 13, 196, 0.12);
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .container img {
@@ -31,6 +59,8 @@ body {
   height: 50%;
   padding-bottom: 20px;
   padding-top: 20px;
+  cursor: pointer;
+  margin: 0 auto;
 }
 .container div {
   text-align: center;
@@ -45,8 +75,10 @@ body {
 .cart-shopping-div {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
   padding-right: 18px;
   padding-left: 18px;
+  margin-top: auto;
 }
 
 .cart-shopping-div h5 {
@@ -59,7 +91,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.8rem;
+  font-size: 28px;
 }
 @media screen and (max-width: 768px) {
   .container {
