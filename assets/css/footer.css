@@ -96,8 +96,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .footer-info {
-    flex-direction: column;
-    text-align: center;
+    grid-template-columns: 1fr;
   }
   .footer-info article h3 {
     color: #4dcbf5;
