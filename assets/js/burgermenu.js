@@ -41,5 +41,5 @@ document.addEventListener("keydown", (event) => {
 });
 
 function activateSecret() {
-  const secretElement = alert("Srdjan, Fuck Dig :)");
+  confetti.start();
 }
