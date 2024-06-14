@@ -112,6 +112,15 @@ img {
   font-size: 19px;
 }
 
+#outlet {
+  color: red;
+  font-weight: 700;
+}
+
+#outlet:hover {
+  color: #464a52;
+}
+
 .navBurgermenu div {
   height: 2px;
   width: 320px;
