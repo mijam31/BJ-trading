@@ -80,6 +80,7 @@ body {
   padding-top: 20px;
   cursor: pointer;
   margin: 0 auto;
+  aspect-ratio: 1/1;
 }
 .container div {
   text-align: center;
@@ -127,11 +128,5 @@ body {
   }
   .box {
     padding: 30px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .kategori {
-    display: none;
   }
 }
