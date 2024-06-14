@@ -10,6 +10,17 @@ function closeul() {
   document.querySelector(".navBurgermenu ul").style.display = "none";
 }
 
+function openBolig() {
+  document.getElementById("openBolig").style.display = "none";
+  document.getElementById("closeBolig").style.display = "block";
+  document.querySelector(".bolig").style.display = "block";
+}
+function closeBolig() {
+  document.getElementById("openBolig").style.display = "block";
+  document.getElementById("closeBolig").style.display = "none";
+  document.querySelector(".bolig").style.display = "none";
+}
+
 const konamiCode = [
   "ArrowUp",
   "ArrowUp",
